@@ -1,0 +1,47 @@
+:root {
+  background-color: black;
+  color: darkseagreen;
+}
+
+body {
+  text-align: center;
+}
+
+#chartbox {
+  border: 5px solid;
+  border-radius: 5px;
+  margin: auto;
+  max-width: min-content;
+  overflow-x: auto;
+}
+
+svg {
+  display: block;
+}
+
+#description {
+  font-family: monospace;
+  font-weight: normal;
+}
+
+#legend {
+  margin: auto;
+}
+
+#legendbox {
+  margin: 20px;
+}
+
+#title {
+  font-family: consolas;
+  font-weight: normal;
+}
+
+#tooltip {
+  border-radius: 5px;
+  position: absolute;
+  background-color: #303030;
+  padding: 5px;
+  top: 50px;
+  left: 100px;
+}
